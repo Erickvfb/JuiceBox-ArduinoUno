@@ -1,56 +1,68 @@
-##🍊 Juice Box – Máquina Inteligente de Sucos
+## 🍊 Juice Box – Máquina Inteligente de Sucos
 
 A Juice Box é uma máquina automatizada de preparo e controle de sucos, desenvolvida com Arduino e componentes eletrônicos acessíveis.
 O projeto integra hardware e software, oferecendo uma solução de baixo custo para instituições educacionais ou pequenos negócios que buscam controle eficiente do consumo de bebidas.
 
-##⚙️ Componentes Físicos
+---
 
-Arduino Uno – microcontrolador responsável pelo controle geral.
+## ⚙️ Componentes Físicos
 
-Módulo Relé – aciona as válvulas de forma segura.
+- Arduino Uno – microcontrolador responsável pelo controle geral.
 
-Válvulas Solenóides – responsáveis pelo fluxo e liberação dos sucos.
+- Módulo Relé – aciona as válvulas de forma segura.
 
-Módulo Bluetooth HC-06 – comunicação com o aplicativo mobile.
+- Válvulas Solenóides – responsáveis pelo fluxo e liberação dos sucos.
 
-Fonte de Alimentação 12V – energia para o sistema.
+- Módulo Bluetooth HC-06 – comunicação com o aplicativo mobile.
 
-Estrutura Física – compartimento para reservatórios de suco, conexões hidráulicas e fixação dos componentes eletrônicos.
+- Fonte de Alimentação 12V – energia para o sistema.
 
-##🔌 Ligações Elétricas (Arduino)
+- Estrutura Física – compartimento para reservatórios de suco, conexões hidráulicas e fixação dos componentes eletrônicos.
 
-Relé 1 → Válvula de Suco 1 (Pino 8 do Arduino)
+---
 
-Relé 2 → Válvula de Suco 2 (Pino 9 do Arduino)
+## 🔌 Ligações Elétricas (Arduino)
 
-HC-06 RX/TX → Comunicação Serial com Arduino (Pinos 0 e 1)
+- Relé 1 → Válvula de Suco 1 (Pino 8 do Arduino)
 
-Fonte 12V → Alimentação das válvulas e relés (com regulador para o Arduino)
+- Relé 2 → Válvula de Suco 2 (Pino 9 do Arduino)
 
-##🏗️ Estrutura Física
+- Relé 3 → Válvula de Suco 2 (Pino 10 do Arduino)
 
-A máquina foi montada em uma caixa reaproveitada (case de PC reciclado), oferecendo:
+- Relé 4 → Válvula de Suco 2 (Pino 11 do Arduino)
 
-Reservatórios de líquidos para cada sabor de suco.
+- HC-06 RX/TX → Comunicação Serial com Arduino (Pinos 0 e 1)
 
-Conexões de mangueiras ligadas às válvulas solenóides.
+- Fonte 12V → Alimentação das válvulas e relés (com regulador para o Arduino)
 
-Painel de acesso interno para manutenção.
+---
 
-Saída frontal para enchimento dos copos.
+## 🏗️ Estrutura Física
 
-##📷 Imagem da Juice Box
+- A máquina foi montada em uma caixa reaproveitada (case de PC reciclado), oferecendo:
 
-![Juice Box](imagens/juiceBoxFront.jpg)
-![Juice Box](imagens/juiceBoxFront2.jpg)
-![Juice Box](imagens/juiceBoxInterna.jpg)
+- Reservatórios de líquidos para cada sabor de suco.
 
-##📌 Diferenciais
+- Conexões de mangueiras ligadas às válvulas solenóides.
 
-Custo reduzido (aprox. R$ 180,00) em comparação com máquinas comerciais.
+- Painel de acesso interno para manutenção.
 
-Estrutura sustentável com reaproveitamento de materiais.
+- Saída frontal para enchimento dos copos.
 
-Integração com aplicativo mobile (Kotlin) e aplicação web (Firebase).
+## 📷 Imagem da Juice Box
 
-Fácil manutenção e possibilidade de expansão (mais válvulas e sabores).
+---
+
+![Juice Box](imagens/juiceBoxFront.jpg) ![Juice Box](imagens/juiceBoxFront2.jpg) ![Juice Box](imagens/juiceBoxInterna.jpg)
+
+## 📌 Diferenciais
+
+---
+
+- Custo reduzido (aprox. R$ 180,00) em comparação com máquinas comerciais.
+
+- Estrutura sustentável com reaproveitamento de materiais.
+
+- Integração com aplicativo mobile (Kotlin) e aplicação web (Firebase).
+
+- Fácil manutenção e possibilidade de expansão (mais válvulas e sabores).
